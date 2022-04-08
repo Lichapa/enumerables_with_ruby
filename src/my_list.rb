@@ -31,5 +31,4 @@ list.any? { |e| e == 5 }
 # => false
 
 # Test #filter
-list.filter(&:even)
-# => [2, 4]
+list.filter(&:even?)
